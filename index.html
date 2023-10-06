@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Results-summary-component-main</title>
+    <link
+      rel="shortcut icon"
+      href="./images/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="box rounded-3xl flex">
+      <div class="first p-5 rounded-3xl">
+        <div class="m-3">
+          <h1 class="test text-center">Your result</h1>
+        </div>
+        <div class="marks flex justify-center">
+          <div class="circle rounded-full flex justify-center items-center">
+            <div class="text text-center">
+              <h1 class="number font-bold text-5xl">76</h1>
+              <p class="num text-sm">of 100</p>
+            </div>
+          </div>
+        </div>
+        <div class="text-center m-5">
+          <h1 class="head font-bold text-2xl">Great</h1>
+          <p class="para text-xs mt-3">
+            Your scored higher than 65% of the people who have taken these tests
+          </p>
+        </div>
+      </div>
+      <div class="second p-4 ">
+        <div class="">
+          <h1>Summary</h1>
+        </div>
+        <div class="">
+          <div class="one rounded-md flex justify-between mt-2 p-2">
+            <div class="flex gap-1">
+              <div class=""><img src="./images/icon-reaction.svg" /></div>
+              <div class="text-red-600 text-sm">Reaction</div>
+            </div>
+            <div>
+              <div class="text-sm">
+                80
+                <span class="text-gray-400">/100</span>
+              </div>
+            </div>
+          </div>
+          <div class="two rounded-md flex p-2 mt-2 justify-between">
+            <div class="flex gap-1">
+            <div class=""><img src="./images/icon-memory.svg" /></div>
+            <div class="text-yellow-400 text-sm">Memory</div>
+        </div>
+        <div>
+            <div class="text-sm">
+              92
+              <span class="text-gray-400">/100</span>
+            </div>
+        </div>
+          </div>
+          <div class="three rounded-md flex p-2 mt-2  justify-between">
+            <div class="flex gap-1">
+            <div><img src="./images/icon-verbal.svg" /></div>
+            <div class="text-teal-500 text-sm">Verbal</div>
+        </div>
+        <div>
+            <div class="text-sm">
+              61
+              <span class="text-gray-400">/100</span>
+            </div>
+        </div>
+          </div>
+          <div class="four rounded-md flex p-2 mt-2 justify-between">
+            <div class="flex gap-1">
+            <div><img src="./images/icon-visual.svg" /></div>
+            <div class="text-blue-600 text-sm">Visual</div>
+        </div>
+        <div>
+            <div class="text-sm">
+              72
+              <span class="text-gray-400">/100</span>
+            </div>
+        </div>
+          </div>
+        </div>
+        <div
+          class="continue rounded-2xl text-center text-white text-sm p-2 mt-5">
+          <button>Continue</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

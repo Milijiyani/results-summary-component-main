@@ -1,0 +1,132 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --Light-red: hsl(0, 57%, 91%);
+  --Orangey-yellow: hsl(39, 69%, 91%);
+  --Green-teal: hsl(166, 61%, 90%);
+  --Cobalt-blue: hsl(234, 56%, 90%);
+  --Light-slate-blue: hsl(252, 100%, 67%);
+  --Light-royal-blue: hsl(241, 81%, 54%);
+  --Violet-blue: hsla(256, 72%, 46%, 1);
+  --Persian-blue-: hsla(241, 72%, 46%, 0);
+  --White: hsl(0, 0%, 100%);
+  --Pale-blue: hsl(221, 100%, 96%);
+  --Light-lavender: hsl(241, 100%, 89%);
+  --Dark-gray-blue: hsl(224, 30%, 27%);
+
+
+  --font-family-1: 'Hanken Grotesk', sans-serif;
+
+  
+}
+
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img,
+picture,
+svg,
+video {
+  max-width: 100%;
+  display: block;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  font-size: 18px;
+  font-family: var(--font-family-1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box{
+  max-width :500px;
+  max-height:600px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.first{
+  background-image:linear-gradient(
+    var(--Light-royal-blue),
+    var(--Light-slate-blue)
+  );
+  width: 250px;
+}
+.circle{
+  background-image:linear-gradient(
+    var(--Violet-blue),
+    var(--Persian-blue)
+  );
+  height:130px;
+  width:130px;
+  /* box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.1), 0 0px 20px 0 rgba(0, 0, 0, 0.10); */
+  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 0px 50px 0 rgba(255, 255, 255, 0.19);
+}
+.test{
+  color:var(--Light-lavender);
+}
+.number{
+  color:var(--White);
+}
+.num{
+  color:var(--Light-lavender);
+}
+.para{
+  color:var(--Light-lavender);
+
+}
+.head{
+    color:var(--White);
+}
+.second{
+  width: 250px;
+  
+  
+}
+.one{
+ background-color: var(--Light-red);
+
+}
+.two{
+  background-color: var(--Orangey-yellow);
+}
+.three{
+  background-color: var(--Green-teal);
+}
+.four{
+  background-color: var(--Cobalt-blue);
+}
+.continue{
+ background-color: var(--Light-royal-blue);
+}
+@media(max-width:508px){
+  .box{
+    display: block;
+    max-height:100%;
+    margin:10px 10px ;
+  }
+}
