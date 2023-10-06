@@ -122,7 +122,12 @@ body {
 }
 .continue{
  background-color: var(--Light-royal-blue);
+  transmision: background-color 0.3s;
 }
+  .continue:hover{
+    background-color(--Dark-gray-blue);
+  }
+    
 @media(max-width:508px){
   .box{
     display: block;
